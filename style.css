@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #093145;
+  z-index: -2;
+}
+
+h1{
+  font-family: tahoma; 
+  padding-top: 50px;
+  color: #f8f8f8;
+  text-shadow: 2px 2px #093145;
+}
+
+h3 {
+  text-align: center;
+  vertical-align: middle;
+  font-family: tahoma; 
+  padding-top: 50px;
+}
+
+p {
+  font-family: tahoma;
+  color: white;
+  padding: 5px;
+  line-height: 1.3em;
+  font-size: 20px;
+}
+
+#nav {
+  width: 100%;
+}
+
+#nav img {
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+#about, #experience, #dream {
+  float: left;
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  margin: 20px;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+  
+.circular--portrait {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  text-align: left;
+  opacity: 0;
+}
+
+.image:hover {
+  opacity: 0.8;
+}
