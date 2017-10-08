@@ -193,3 +193,14 @@ form.contact-form {
 .form-row button:active {
   background-color: #407FC7;
 }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    width: auto;
+  }
+
+  /*
+    手機版的 css 都寫在這邊
+  */   
+
+}
