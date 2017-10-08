@@ -4,47 +4,132 @@
   <head>
     <title>Welcome to Zoe's Site!!!</title>
   </head>
+
   <body>
     <div id="nav">
       <div class="container">
-      <img src="img/nav.jpg" alt="nav">
-      <h1>Hello World!</h1>
+        <ul class="menu">
+          <li><a href="#about">Who am I</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="#contact-me">Contact me</a></li>
+        </ul>
       </div>
     </div>
-    
-    <div class="container">
-    <div id="about">
-      <div>
-        <img class="circular--portrait" src="img/about.jpg">
-      </div>
-      <div class="image">
-        <h3><a href="#about">about</a></h3>
-        <br><br>
-        <p>我叫Zoe，是個普通的上班族，剛剛成為一腳踏入coding世界的麻瓜。目前仍舊挫折感十足...希望有一天能成功征服程式設計。</p>
-      </div>
-    </div>
-    
-    <div id="experience">
-      <div>
-        <img class="circular--portrait" src="img/experience.jpg">
-      </div>
-      <div class="image">
-        <h3><a href="#experience">experience</a></h3>
-        <br><br>
-        <p>我有流浪癖，喜歡到各地旅行，也在不同的國家讀書、生活、工作過。在社會學、景觀建築、都市計畫、國際志工、旅遊規劃等不同產業及領域中輾轉，找尋自己的人生定位。</p>
-      </div>
-    </div>
+    <div id="content">
+      <div class="container">      
+        <div id="about">
+        <div id="my-avatar">
+        <img src="img/my-avatar.jpg" alt="my avatar">
+        </div>
 
-    <div id="dream">
-      <div>
-        <img class="circular--portrait" src="img/dream.jpg">
-      </div>
-      <div class="image">
-        <h3><a href="#dream">dream</a></h3>
-        <br><br>
-        <p>我關注社會議題，一直希望有機會能夠在社會企業或非營利組織做全職工作，為這個世界多付出一點點。目前正努力累積自己的經驗與能力，慢慢朝目標前進。</p>
+        <div id="my-info">
+          <h1>I am Zoe Pai</h1>
+          <h3>Travel Destination Manager</h3>
+        　<hr>
+          <table>
+            <tr>
+              <th>Birth</th>
+              <td>1982</td>
+            </tr>
+            <tr>
+              <th>工作經驗</th>
+              <td> 10 years / Sociology, Landscape Architecture, Urban Planning, Travel Destination Management</td>
+            </tr>
+            <tr>
+              <th>工作技能</th>
+              <td>Office, AutoCAD, Photoshop, HTML, CSS</td>
+            </tr>
+            <tr>
+              <th>學習經歷</th>
+              <td>
+                Bachelor of Arts, 2004<br>
+                Master of Landscape Architecture, 2006<br>
+                Master of Urban Planning, 2008-2009
+              </td>
+            </tr>
+          </table>
+        </div>
+        </div>
+        <!-- 在內容區域的中間加上水平線 -->
+        <br>
+        <hr class="bar">
+        
+        <!-- 水平線的樣式 -->
+
+        <div id="my-work">
+          <h1>This is My Work</h1>
+          <br>
+          <div id="my-work-gallery">
+            <div class="item">
+              <img src="http://lorempixel.com/300/300/" alt="My Personal Site">
+              <div class="item-info">
+                <h3>我的個人網站</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/300/300/" alt="My Personal Site">
+              <div class="item-info">
+                <h3>我的個人網站</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/300/300/" alt="My Personal Site">
+              <div class="item-info">
+                <h3>我的個人網站</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/300/300/" alt="My Personal Site">
+              <div class="item-info">
+                <h3>我的個人網站</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/300/300/" alt="My Personal Site">
+              <div class="item-info">
+                <h3>我的個人網站</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 在內容區域的中間加上水平線 -->
+        <br>
+        <hr class="bar">
+
+        <!-- 水平線的樣式 -->
+
+        <div id="contact-me">
+
+          <h1>Contact me</h1>
+          <br>
+          <form action="" class="contact-form">
+            <div class="form-row">
+              <label for="name">姓名</label>
+              <input id="name" name="name" type="text">
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email">
+            </div>
+            <div class="form-row">
+              <label for="message">訊息</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-row">
+              <button type="reset">重設</button>
+              <button type="sumbit">提交</button>
+            </div>
+          </form>
+
+        </div>
+
       </div>
     </div>
-
   </body>
 </html>
